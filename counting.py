@@ -1,4 +1,8 @@
 def countCharsInString(string):
+	'''take in a string, get a count of each unique character's occurrences, print these all out'''
+	#Thank you to the submitter of the answer here:
+	#https://stackoverflow.com/questions/26579392/sorting-string-values-according-to-a-custom-alphabet-in-python
+	
 	dict = {}
 	for char in string:
 		if char in dict:
