@@ -1,0 +1,31 @@
+from test import testEqual
+
+def remove(substr,original_string):
+    stringToReturn = original_string
+    # your code here
+    stringBefore = ''
+    stringAfter = ''
+    print(stringToReturn.find(substr))
+    print(original_string[index + len(substr) - 1:len(original_string) -1])
+    
+    #while(stringToReturn.find(substr) >= 0):
+    #    print('in loop')
+    #    index = original_string.find(substr)
+    #    if index != 0:
+    #        stringBefore = original_string[0:index]
+    #    if len(original_string) - (index + len(substr)) > 0:
+    #        stringAfter = original_string[index + len(substr) - 1:len(original_string) -1]
+    #    else:  #nothing to remove
+    #        print("What?")
+    #    stringToReturn = stringBefore + stringAfter
+    #print(stringToReturn)
+
+
+remove('a','apple')
+remove('p','apple')
+
+#testEqual(remove('an', 'banana'), 'bana')
+#testEqual(remove('cyc', 'bicycle'), 'bile')
+#testEqual(remove('iss', 'Mississippi'), 'Missippi')
+#testEqual(remove('egg', 'bicycle'), 'bicycle')
+#testEqual(remove('oo', 'Yahoohoo'), 'Yahhoo')
