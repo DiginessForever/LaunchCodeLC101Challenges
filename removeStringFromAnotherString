@@ -5,7 +5,8 @@ def remove(substr,original_string):
     # your code here
     stringBefore = ''
     stringAfter = ''
-    print(stringToReturn.find(substr))
+    index = stringToReturn.find(substr)
+    print(index)
     print(original_string[index + len(substr) - 1:len(original_string) -1])
     
     #while(stringToReturn.find(substr) >= 0):
