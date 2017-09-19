@@ -3,9 +3,42 @@ body {
 	border-style:  groove;
 	border-radius: 5px;
 	margin:  10px 10px 10px 10px;
-	padding:  100px 100px 100px 100px;
+	padding:  0px 100px 100px 100px;
+	background: url("./jevois.jpg")
+		no-repeat center center fixed;
+	background-size: cover;
+	background-blend-mode: color-dodge;
 }
 p {
     text-align: center;
-    color: black;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+.omega {
+	color: purple;
+	font-size: 1000%;
+}
+
+h1#Intro {
+	font-size: 250%;
+}
+
+.color {
+	color: white;
+}
+
+ul {
+	color: white;
+}
+
+li {
+	color: white;
 }
